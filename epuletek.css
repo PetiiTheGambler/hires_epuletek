@@ -1,7 +1,28 @@
+.body {
+		margin: 0;
+		font-family: 'Times New Roman', Times, serif;
+		font-weight: 400;
+		font-size: 1em;
+		line-height: 1.5;
+		color: #212529;
+		text-align: left;
+		background-color: #f7f7f7;
+	  }
+
 #felso
 {
 	margin-top: 30px;
+	background-color: #fff;
+	font-family: 'Times New Roman', Times, serif;
 }
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
 
 .kozep
 {
@@ -17,4 +38,24 @@
 {
 	margin: auto;
 	display: block;
+	height: 300px;
 }
+
+.row {
+	display: flex;
+	text-align: center;
+}
+
+button {
+	border-radius: 0;
+  }
+
+  .card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+  }
